@@ -85,10 +85,10 @@
                 $(this).remove();
             });
             Swal.fire({
-            title: "Thank you!",
-            text: "You message was sent! We will contact you soon.",
+            title: "¡Gracias!",
+            text: "¡Tu mensaje fue enviado! Nos pondremos en contacto contigo pronto.",
             confirmButtonColor: "#3085d6",
-            confirmButtonText: "Go back to chapter"
+            confirmButtonText: "Regresar al capítulo"
             }).then((result) => {
             if (result.isConfirmed) {
                 window.location.href = chapterPage;
