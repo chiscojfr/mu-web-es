@@ -41,37 +41,37 @@
             var selectedChapter =  $('#chapter').val();
             
             switch(selectedChapter){
-                case 'Chapter I: Introduction':
+                case 'Capítulo I: Introducción':
                     chapterPage = 'index.html';
                     break;
-                case 'Chapter II: Injection Molding Process Parameters':
+                case 'Capítulo II: Parámetros del Proceso de Inyección':
                     chapterPage = 'chapter_2.html';
                     break;
-                case 'Chapter III: Process Graphs':
+                case 'Capítulo III: Gráficas del Proceso':
                     chapterPage = 'chapter_3.html';
                     break;
-                case 'Chapter IV: Plastic Morphology':
+                case 'Capítulo IV: Morfología de Plásticos':
                     chapterPage = 'chapter_4.html';
                     break;
-                case 'Chapter V: Auxiliary Equipment':
+                case 'Capítulo V: Equipos Auxiliares':
                     chapterPage = 'chapter_5.html';
                     break;
-                case 'Chapter VI: Molding from the Desk':
+                case 'Capítulo VI: Equipos Auxiliares':
                     chapterPage = 'chapter_6.html';
                     break;
-                case 'Chapter VII: Machine Rheology':
+                case 'Capítulo VII: Reología en Máquina':
                     chapterPage = 'chapter_7.html';
                     break;
-                case 'Chapter VIII: Determining Injection Speed':
+                case 'Capítulo VIII: Determinación de la Velocidad de Inyección':
                     chapterPage = 'chapter_8.html';
                     break;
-                case 'Chapter IX: Verifying Fill Balance':
+                case 'Capítulo IX: Verificación del Balance del Llenado':
                     chapterPage = 'chapter_9.html';
                     break;
-                case 'Chapter X: Determining Hold Stage Parameters':
+                case 'Capítulo X: Determinación de Parámetros en la Etapa de Empaque':
                     chapterPage = 'chapter_10.html';
                     break;
-                case 'Chapter XI: Determining Cooling Stage Parameters':
+                case 'Capítulo XI: Determinación de Parámetros en la Etapa de Enfriamiento':
                     chapterPage = 'chapter_11.html';
                     break;
                 default:
